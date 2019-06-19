@@ -1,0 +1,32 @@
+body{ min-width:1000px;}
+.no-margin-right{margin-right:0px !important;}
+.header{width:960px;}
+
+/* NAVIGATOIN */
+.mobile_nav a{background:url(images/mobile_nav_right.png) no-repeat right center #f6f6f6; border:1px #ccc solid; margin-top:10px; padding:12px 20px; display:none;}
+.header_right nav{padding:10px 0; margin-right:-10px; line-height:1.25}
+.sitenav{ padding:0; text-align:right;}
+.sitenav ul { margin:0; padding:0; font-family:'Montserrat', sans-serif; font-weight:400; font-size:14px; }
+.sitenav ul li{ display:inline-block; margin:0; position:relative; text-align:center;}
+.sitenav ul li a{ padding:3px 15px; display:block; color:#787878; border-right:1px solid #dde4ea; }
+.sitenav ul li:last-child a{ border-right:none; }
+.sitenav ul li ul li{display:block; position:relative; float:none; top:-1px; border-bottom:1px solid #dde4ea;}
+.sitenav ul li ul li a{display:block; padding-top:10px; padding-bottom:10px; position:relative; top:1px; text-align:left;  border-right:none; }
+.sitenav ul li a:hover, .sitenav ul li.current_page_item a{ color:#000; }
+
+.sitenav ul li ul{display:none; z-index:9999999; position:relative;}
+.sitenav ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left; background-color:#eef8fe; }
+.sitenav ul li:hover ul li ul{display:none; position:relative;}
+.sitenav ul li:hover ul li:hover > ul{display:block; position:absolute; left:200px; top:1px;}
+.sitenav ul li:hover > ul li a{ border-radius: 0px;}
+
+hr{*border:none !important;}
+.search-form {*height:32px !important; *overflow:hidden !important;}
+.search-form .search-submit{*top:-34px; *position:relative;}
+.search-form .search-field{*width:120px !important; }
+.search-form label{*display:inline-block !important;}
+.header_right nav{*float:right !important;}
+nav ul li ul li, nav ul li ul li a{*display:block !important; float:none !important;}
+
+#sitemain{width:680px; float:left;}
+#sidebar{width:250px; float:right;}
